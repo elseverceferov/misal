@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    
+    background: url(menzele.jpg) no-repeat 0 ;
+    align-content: center;
+    background-size: cover;
+    height: 500px;
+    color:  rgb(125 134 99);
+    display: flex;
+    align-items: flex-end;
+}
+
+h1{
+    font-size: 50px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+
+nav{
+    background-color: rgb(88, 88, 88);
+}
+
+.siyahilar{
+    display: flex;
+    width: 50%;
+    margin-left: 15px;
+}
+
+.siyahilar>li{
+    list-style-type: none;
+}
+
+.siyahi{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.siyahi:hover{
+    background-color: rgb(92, 8, 8);
+    color:rgb(88,88, 8) ;
+}
+
+section{
+    padding: 30px;
+    line-height: 25px;
+}
+p{
+    margin: 40px 0;
+}
